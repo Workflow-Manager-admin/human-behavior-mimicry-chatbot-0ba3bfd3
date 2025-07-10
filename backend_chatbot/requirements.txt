@@ -1,3 +1,15 @@
+# Backend dependencies for human-behavior-mimicry-chatbot-0ba3bfd3
+
 fastapi>=0.98.0
 uvicorn[standard]>=0.22.0
 pydantic>=1.10.7
+
+# Add essentials for CORS, typing, and date handling if not always installed
+python-multipart>=0.0.5
+typing-extensions>=4.5.0
+python-dotenv>=1.0.0
+
+# Uncomment if you need for OpenAPI/Swagger UI
+# aiofiles>=23.1.0
+
+# Ensure all dependencies that appear in imports/main.py are included; add more if startup errors indicate missing modules.
